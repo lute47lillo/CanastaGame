@@ -15,6 +15,150 @@
         android:backgroundTint="#4CAF50"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:id="@+id/PcHandRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/PCHand"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/ic_launcher_background"
+                android:backgroundTint="#4CAF50"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/handCardsPC"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_card"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/PChandAS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChand2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChand4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChand5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChand6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChand7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChand8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChand9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChand10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChandJ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChandQ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                    <Button
+                        android:id="@+id/PChandK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/back_card" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/restart_off_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/offButton"
+                    android:layout_width="94dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1.7"
+                    android:background="@drawable/offgame" />
+
+                <Button
+                    android:id="@+id/restartgame"
+                    android:layout_width="94dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/restartgame" />
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout
@@ -26,6 +170,260 @@
         android:backgroundTint="#4CAF50"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:id="@+id/PCMelds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/PcMelds2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_launcher_background"
+                android:backgroundTint="#4CAF50"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/PcMelds3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:visibility="visible">
+
+                    <LinearLayout
+                        android:id="@+id/PcMeldNCards"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/nPCCardsAS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCards2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:text="@string/_4"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCards4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCards5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCards6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:text="@string/_5"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCards7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCards8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCards9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCards10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCardsJ"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCardsQ"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/nPCCardsK"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:backgroundTint="#4CAF50"
+                            android:clickable="false"
+                            android:contextClickable="false"
+                            android:text="@string/_3"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/PcMeldCards"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/PCmeldAs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50"/>
+
+                    <Button
+                        android:id="@+id/PCmeld2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/two_trebol" />
+
+                    <Button
+                        android:id="@+id/PCmeld4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50"
+                        tools:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/PCmeld5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50" />
+
+                    <Button
+                        android:id="@+id/PCmeld6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/six_hearts"
+                         />
+
+                    <Button
+                        android:id="@+id/PCmeld7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50"
+                        tools:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/PCmeld88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50"
+                        tools:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/PCmeld9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50" />
+
+                    <Button
+                        android:id="@+id/PCmeld10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50" />
+
+                    <Button
+                        android:id="@+id/PCmeldJ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50"
+                        tools:visibility="invisible" />
+
+                    <Button
+                        android:id="@+id/PCmeldQ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#4CAF50" />
+
+                    <Button
+                        android:id="@+id/PCmeldK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/king_pica"
+                         />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -36,8 +434,10 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/piles"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#8BC34A"
             android:backgroundTint="#4CAF50"
             android:orientation="horizontal">
 
@@ -53,6 +453,13 @@
                 android:id="@+id/button2"
                 android:layout_width="7dp"
                 android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="0.8"
                 android:background="@drawable/back_card" />
 
@@ -60,6 +467,13 @@
                 android:id="@+id/discardPile"
                 android:layout_width="7dp"
                 android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="0.8"
                 android:background="@drawable/trebol_ten" />
 
@@ -81,6 +495,7 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/playerMelds2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/ic_launcher_background"
@@ -88,6 +503,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/playerMeldCards"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -187,14 +603,17 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/playerMelds3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 tools:visibility="visible">
 
                 <LinearLayout
+                    android:id="@+id/playerMeldNCards"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
                     android:orientation="horizontal">
 
                     <Button
@@ -235,7 +654,7 @@
                         android:backgroundTint="#4CAF50"
                         android:clickable="false"
                         android:contextClickable="false"
-                        android:text="5"
+                        android:text="@string/_5"
                         android:textColor="#000000" />
 
                     <Button
@@ -276,7 +695,7 @@
                         android:backgroundTint="#4CAF50"
                         android:clickable="false"
                         android:contextClickable="false"
-                        android:text="4"
+                        android:text="@string/_4"
                         android:textColor="#000000" />
 
                     <Button
@@ -308,7 +727,7 @@
                         android:backgroundTint="#4CAF50"
                         android:clickable="false"
                         android:contextClickable="false"
-                        android:text="6"
+                        android:text="@string/_6"
                         android:textColor="#000000" />
 
                     <Button
@@ -334,6 +753,7 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/playerHands"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -355,12 +775,14 @@
                 android:textStyle="bold" />
 
             <LinearLayout
+                android:id="@+id/playerHands2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <LinearLayout
+                    android:id="@+id/playerHands3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -469,6 +891,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/playerNCardsHand"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.4"
@@ -512,7 +935,7 @@
                             android:backgroundTint="#4CAF50"
                             android:clickable="false"
                             android:contextClickable="false"
-                            android:text="5"
+                            android:text="@string/_2"
                             android:textColor="#000000" />
 
                         <Button
@@ -553,7 +976,7 @@
                             android:backgroundTint="#4CAF50"
                             android:clickable="false"
                             android:contextClickable="false"
-                            android:text="4"
+                            android:text="@string/_1"
                             android:textColor="#000000" />
 
                         <Button
@@ -564,7 +987,7 @@
                             android:backgroundTint="#4CAF50"
                             android:clickable="false"
                             android:contextClickable="false"
-                            android:text="7"
+                            android:text="@string/_1"
                             android:textColor="#000000" />
 
                         <Button
@@ -585,7 +1008,7 @@
                             android:backgroundTint="#4CAF50"
                             android:clickable="false"
                             android:contextClickable="false"
-                            android:text="6"
+                            android:text="@string/_2"
                             android:textColor="#000000" />
 
                         <Button
@@ -611,7 +1034,7 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="40dp"
                 android:layout_marginBottom="30dp"
-                android:text="Discard"
+                android:text="@string/discard"
                 android:textSize="30sp" />
         </LinearLayout>
 
