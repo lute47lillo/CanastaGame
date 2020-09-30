@@ -40,6 +40,19 @@
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/aiScore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="#4CAF50"
+                        android:clickable="false"
+                        android:contextClickable="false"
+                        android:gravity="center"
+                        android:text="290"
+                        android:textColor="#050505"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                    <Button
                         android:id="@+id/PChandAS"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -1027,14 +1040,14 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/discardButton"
+                android:id="@+id/undoButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="40dp"
                 android:layout_marginBottom="30dp"
-                android:text="@string/discard"
+                android:text="Undo"
                 android:textSize="30sp" />
         </LinearLayout>
 
